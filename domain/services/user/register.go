@@ -6,10 +6,10 @@ import (
 
 	"massivleads/domain/entity"
 	"massivleads/exceptions"
-	"massivleads/router/dtos"
 	"massivleads/logger"
 	serrors "massivleads/prototypes/errors"
 	"massivleads/prototypes/models"
+	"massivleads/router/dtos"
 	"massivleads/utils"
 )
 

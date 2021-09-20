@@ -1,4 +1,6 @@
 .env
 .idea/
+.gitignore
+README.md
 Dockerfile
 main.go

@@ -1,6 +1,6 @@
 This template is a loose implementation of golang DDD (Domain Driven Design). Template already setup user register login and refresh session route. It authenticates user with Custom auth middleware.
 
-#####Project Structure:
+##### Project Structure:
 
 `domain\` Contains all the business logic .
 
@@ -14,7 +14,7 @@ This template is a loose implementation of golang DDD (Domain Driven Design). Te
 
 `utils\` Contains utility functions.
 
-#####Current Tech Stack:
+##### Current Tech Stack:
 
 App is nearly independent of any major framework. Right now it implements the following stack.
 
@@ -27,10 +27,10 @@ App is nearly independent of any major framework. Right now it implements the fo
 4. Zap (For logging)
 
 
-#####Docker support:
+##### Docker support:
 
 Dockerfile is optimized for deploying any cloud environment .
 
-#####
+
 
 FOR IMPROVEMENTS PLEASE FEEL FREE TO CREATE A PULL REQUEST :)

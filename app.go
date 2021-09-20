@@ -8,8 +8,8 @@ import (
 	"strconv"
 
 	"github.com/gofiber/fiber/v2"
-	"massivleads/interfaces"
-	"massivleads/interfaces/middlewares"
+	"massivleads/router"
+	"massivleads/router/middlewares"
 
 	"github.com/joho/godotenv"
 	"massivleads/exceptions"
@@ -39,7 +39,7 @@ func main() {
 	middlewares.SetMiddlewares(app)
 
 	// Initialize routes
-	interfaces.CreateRoutes(app)
+	router.CreateRoutes(app)
 
 	log.Fatal(app.Listen(fmt.Sprintf(":%s", os.Getenv("PORT"))))
 }

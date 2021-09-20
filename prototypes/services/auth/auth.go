@@ -1,7 +1,7 @@
 package auth
 
 import (
-	"massivleads/interfaces/dtos"
+	"massivleads/router/dtos"
 	"massivleads/prototypes/models"
 )
 

@@ -5,7 +5,7 @@ import (
 	"net/http"
 
 	"massivleads/exceptions"
-	"massivleads/interfaces/dtos"
+	"massivleads/router/dtos"
 	"massivleads/logger"
 	serrors "massivleads/prototypes/errors"
 	"massivleads/prototypes/models"

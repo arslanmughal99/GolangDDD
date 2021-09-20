@@ -6,7 +6,7 @@ import (
 	"massivleads/domain/repository"
 	"massivleads/domain/services/shared"
 	"massivleads/exceptions"
-	"massivleads/interfaces/dtos"
+	"massivleads/router/dtos"
 	"massivleads/prototypes/models"
 	"massivleads/utils"
 )

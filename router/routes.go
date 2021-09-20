@@ -1,10 +1,10 @@
-package interfaces
+package router
 
 import (
 	"github.com/gofiber/fiber/v2"
 	"massivleads/domain/entity"
-	"massivleads/interfaces/handlers"
-	"massivleads/interfaces/middlewares"
+	"massivleads/router/handlers"
+	"massivleads/router/middlewares"
 	smodels "massivleads/prototypes/models"
 )
 

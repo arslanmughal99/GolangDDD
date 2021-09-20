@@ -6,7 +6,7 @@ import (
 	"github.com/gofiber/fiber/v2"
 	"github.com/pkg/errors"
 	"massivleads/exceptions"
-	"massivleads/interfaces/dtos"
+	"massivleads/router/dtos"
 	"massivleads/logger"
 	smodels "massivleads/prototypes/models"
 	"massivleads/utils"

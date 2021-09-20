@@ -22,6 +22,7 @@ func NewMongoUserRepository() *UserRepository {
 	repo := new(UserRepository)
 	repo.client = newMongoClient()
 
+	// Create mongo collection indexes
 	idxs := []mongo.IndexModel{
 		{
 			Keys:    bson.D{{"username", 1}},
